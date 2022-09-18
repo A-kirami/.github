@@ -7,17 +7,17 @@ body:
     attributes:
       value: |
         ## 注意事项
-        议题列表专门用于错误报告和功能需求，这意味着我们不接受使用问题。如果您打开的问题不符合要求，它将会被无条件关闭。
+        [GitHub Issues](../issues) 专门用于错误报告和功能需求，这意味着我们不接受使用问题。如果您打开的问题不符合要求，它将会被无条件关闭。
 
-        有关使用问题，请通过以下方法：
+        有关使用问题，请通过以下途径：
         - 阅读文档以解决
         - 在社区内寻求他人解答
-        - 在 discussions 上提问
-        - 在网络中搜索是否有人问过类似的问题
+        - 在 [GitHub Discussions](../discussions) 上提问
+        - 在网络中搜索是否有人遇到过类似的问题
 
-        如果您不知道如何有效、精准地提出一个问题，我们建议您先阅读[《提问的智慧》](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/main/README-zh_CN.md)
+        如果您不知道如何有效、精准地提出一个问题，我们建议您先阅读[《提问的智慧》](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/main/README-zh_CN.md)。
 
-        最后，请记得遵守我们的社区准则，要友好交流。
+        最后，请记得遵守我们的社区准则，友好交流。
 
   - type: checkboxes
     id: terms
@@ -29,9 +29,7 @@ body:
           required: true
         - label: 我已使用最新版本测试过，确定问题依旧存在。
           required: true
-        - label: 我确定此项目的议题列表中没有相同或相似的问题。
-          required: true
-        - label: 我确定这是此项目的问题，而不是正在使用的其他东西。
+        - label: 我确定在 [GitHub Issues](../issues) 中没有相同或相似的问题。
           required: true
         - label: 我愿意帮助修复此问题。（这会将您指定为此问题的受理人并自动创建修复分支）
 
@@ -87,4 +85,4 @@ body:
     id: context
     attributes:
       label: 额外补充
-      description: 还有什么要补充的吗？在此处添加相关的任何其他上下文或截图，或者你觉得有帮助的信息。
+      description: 在此处添加相关的任何其他上下文或截图，或者您觉得有帮助的信息。
