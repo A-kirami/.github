@@ -21,13 +21,15 @@ body:
     id: terms
     attributes:
       label: 报告清单
-      description: 请根据自身情况勾选。
+      description: 请确认您已遵守所有必选项。
       options:
         - label: 我已仔细阅读并了解上述注意事项。
           required: true
+        - label: 我已使用最新版本测试过，确认功能并未实现。
+          required: true
         - label: 我确定在 [GitHub Issues](../issues) 中没有相同或相似的需求。
           required: true
-        - label: 我愿意帮助实现此功能。（这会将您指定为此需求的受理人并自动创建特性分支）
+        - label: 我有足够的时间和能力，愿意为此提交 PR 来实现功能。（这会将您指定为此需求的受理人）
 
   - type: textarea
     id: problem
