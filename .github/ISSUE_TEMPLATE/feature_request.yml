@@ -29,7 +29,7 @@ body:
           required: true
         - label: 我确定在 [GitHub Issues](../issues) 中没有相同或相似的需求。
           required: true
-        - label: 我有足够的时间和能力，愿意为此提交 PR 来实现功能。（这会将您指定为此需求的受理人）
+        - label: 我有足够的时间和能力，愿意为此提交 PR 来实现功能。
 
   - type: textarea
     id: problem
