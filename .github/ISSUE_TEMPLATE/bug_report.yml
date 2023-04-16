@@ -73,13 +73,6 @@ body:
       placeholder: 正常情况下它应该……
 
   - type: textarea
-    id: actual
-    attributes:
-      label: 实际行为
-      description: 实际到底发生了什么？
-      placeholder: 事实上它……
-
-  - type: textarea
     id: logs
     attributes:
       label: 日志信息
