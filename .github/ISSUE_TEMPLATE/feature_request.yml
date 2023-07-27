@@ -20,7 +20,7 @@ body:
   - type: checkboxes
     id: terms
     attributes:
-      label: 报告清单
+      label: 确认事项
       description: 请确认您已遵守所有必选项。
       options:
         - label: 我已仔细阅读并了解上述注意事项。
@@ -29,7 +29,6 @@ body:
           required: true
         - label: 我确定在 [GitHub Issues](../issues) 中没有相同或相似的需求。
           required: true
-        - label: 我有足够的时间和能力，愿意为此提交 PR 来实现功能。
 
   - type: textarea
     id: problem
@@ -66,3 +65,11 @@ body:
     attributes:
       label: 还有什么要补充的吗？
       description: 在此处添加相关的任何其他上下文或截图，或者您觉得有帮助的信息。
+
+  - type: checkboxes
+    id: contribute
+    attributes:
+      label: 参与贡献
+      description: 欢迎加入我们的贡献者行列！
+      options:
+        - label: 我有足够的时间和能力，愿意为此提交 PR 来实现功能。
