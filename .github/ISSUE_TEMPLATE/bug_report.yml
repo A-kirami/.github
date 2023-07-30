@@ -1,5 +1,5 @@
 name: 🐛 错误报告
-title: "[BUG]: "
+title: "BUG: "
 description: 创建一个错误报告来帮助我们改进
 labels: ["bug"]
 body:
