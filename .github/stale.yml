@@ -24,8 +24,8 @@ staleLabel: stale
 # Optionally, specify configuration settings that are specific to just 'issues' or 'pulls':
 issues:
   markComment: >
-    由于此议题在最近没有任何活动，它已被自动标记为过期。如果接下来没有新的活动发生，它将会被关闭。感谢您的贡献。
+    由于此议题在最近没有任何活动，它已被自动标记为过期。如果接下来没有新的活动发生，它将会被关闭。感谢你的贡献。
 
 pulls:
   markComment: >
-    由于此拉取请求在最近没有任何活动，它已被自动标记为过期。如果接下来没有新的活动发生，它将会被关闭。感谢您的贡献。
+    由于此拉取请求在最近没有任何活动，它已被自动标记为过期。如果接下来没有新的活动发生，它将会被关闭。感谢你的贡献。
